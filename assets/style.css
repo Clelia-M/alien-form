@@ -8,7 +8,7 @@ html {
       font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url(../img/hd_galaxy2.jpeg);
+      background-image: url(../assets/hd_galaxy2.jpeg);
   }
   .wrapper {
       width: 80%;
