@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(../img/hd_galaxy2.jpeg);
+  }
+  .wrapper {
+      width: 80%;
+      margin: 0 auto;
+      padding: 1.5em;
+      display: flex;
+      flex-flow: row nowrap;
+      background-color: #D9CFC1;
+      border-radius: 10px;
+  }
+  h1 {
+      font-family: 'Playfair Display', serif;
+      color: #1b2636;
+  }
+  
+  p {
+      margin-bottom: 0;
+      margin-top: 2rem;
+  }
+  section {
+      flex-basis: 57%;
+      margin-right: 10%;
+  }
+  aside {
+      flex-basis: 33%;
+  }
+  p, [for="abtype"] {
+      margin: 2rem 0 0 0;
+  }
+  fieldset {
+      border: 1px solid #4D607A;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+  }
+  legend {
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin: 1.5rem 0 1rem 0;
+      display: block;
+      font-family: 'Playfair Display', serif;
+      color:#1b2636
+  }
+  label {
+      display: block;
+      padding-bottom: 0.5rem;
+  }
+  textarea {
+      height: 10rem;
+      padding: 1rem;
+  }
+  select {
+      font-size: 1rem;
+  }
+  button {
+      font-size: 1.3rem;
+      margin: 2rem 0;
+      background-color: #4D607A;
+      color: whitesmoke;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+  }
+  button:hover {
+      background-color: whitesmoke;
+      color: #4D607A;
+  }
+  input:not([type="radio"]):not([type="checkbox"]), textarea, select {
+      display: block;
+      margin-bottom: 1.5rem;
+      width: 20rem;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      padding: 0.1rem;
+      border-radius: 3px;
+      border: none;
+  }
+  
+  h3 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 1rem;
+      color: #1b2636;
+  }
+  
+  iframe {
+      border-radius: 5px;
+      margin-bottom: 1rem;
+  }
+  address {
+      text-align: center;
+  }
